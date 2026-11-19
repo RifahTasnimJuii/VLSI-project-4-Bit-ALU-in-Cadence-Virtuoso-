@@ -221,3 +221,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Cadence / Virtuoso generated files
+cds.lib
+cdsinfo.tag
+*.cdslck
+logs*/
+perf_logs/
+qaLog.txt
+*.rdb
+*.ocn.log
+.cdsenv
+
+# Simulation output
+*.raw/
+psf/
+
+# Proprietary PDK and model files: never commit
+gpdk045*/
+models/
+*.lib
+*.pdk
